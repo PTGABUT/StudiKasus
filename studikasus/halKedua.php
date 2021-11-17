@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>StudiKasusKesulitanBelajarOnline - Halaman Kedua</title>
+     <link rel="stylesheet" href="tombol.css">
+     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>KASUS YANG DITEMUI</h1>
+<body style="background-color: #00D7FF">
+    <h1 class="judulHalaman">KASUS YANG DITEMUI</h1>
     <p>- Siswa A mengalami kesulitan belajar online karena saat pelajaran 
          berlangsung dia sering mengalami kesulitan fokus saat pelajaran. Tapi masih
          rajin mengerjakan tugas yang diberikan guru</p>
@@ -20,9 +22,9 @@
     <p>- Siswa E yang kesulitan mengejar materi karena meremehkan belajar online, kurang semangat belajarnya
          dan bermalas - malasan pada saat masih awal - awalnya sistem belajar online diterapkan
          di sekolahnya</p>
-    <a href="view.php">View Data Siswa</a><br><br>
-    <a href="halPertama.php"><= Balik</a>
-    <a href="halKetiga.php">Lanjut =></a><br> <br>
-    <a href="menu.php">Menu Halaman</a>
+    <a href="view.php"class='tombol'>View Data Siswa</a><br><br>
+    <a href="halPertama.php" class='tombol'><= Balik</a>
+    <a href="halKetiga.php" class='tombol'>Lanjut =></a><br> <br>
+    <a href="menu.php" class='tombol'>Menu Halaman</a>
 </body>
 </html>

@@ -1,7 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StudiKasusKesulitanBelajarOnline - View</title>
+    <link rel="stylesheet" href="tombol.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #00D7FF">
 <?php
     include './koneksi.php';
-    echo "<a href='menu.php'>Menu Halaman</a><br>";
-    echo "<a href='search.php'>Search Data</a><br>";
+    echo "<a href='menu.php' class='tombol'>Menu Halaman</a><br><br>";
+    echo "<a href='search.php' class='tombol'>Search Data</a><br>";
+
 
     $sql = "SELECT 
     sis.id,
@@ -20,13 +29,18 @@
         echo "<br>";
         echo "$a";
         echo "<br>";
-        echo "NIS : " . $baris[1] . "<br>";
-        echo "Nama Pendek Siswa: " . $baris[2] . "<br>";
-        echo "Nama Initial Siswa: " . $baris[3] . "<br>";
-        echo "Jenis Kelamin : " . $baris[4] . "<br>";
-        echo "Jurusan : " . $baris[6] . "<br>";
+        echo "<table>";
+        echo "<tr> <td bgcolor=#C8C8C8> NIS </td> <td bgcolor=#C8C8C8> " . $baris[1] . " </td> </tr> ";
+        echo "<tr> <td bgcolor=white> Nama Pendek Siswa </td> <td bgcolor=white>" . $baris[2] . "</td> </tr> ";
+        echo "<tr> <td bgcolor=#C8C8C8> Nama Initial Siswa </td> <td bgcolor=#C8C8C8>" . $baris[3] . "</td> </tr> ";
+        echo "<tr> <td bgcolor=white> Jenis Kelamin </td> <td bgcolor=white>" . $baris[4] . "</td> </tr> ";
+        echo "<tr> <td bgcolor=#C8C8C8> Jurusan </td> <td bgcolor=#C8C8C8>" . $baris[6] . "</td> </tr> ";
+        echo "</table>";
         $a++;
+        
     }
     $conn->close();
 ?>
+</body>
+</html>
 

@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>StudiKasusKesulitanBelajarOnline - Halaman Keenam</title>
+    <link rel="stylesheet" href="tombol.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Analisis</h1>
+<body style="background-color: #00D7FF">
+    <h1 class="judulHalaman">Analisis</h1>
     <p>Jadi, yang beda dari belajar di sekolah dan belajar di rumah itu banyak sekali
     perbedaannya, terutama perbedaan kesulitannya. Di rumah, siswa terkadang sering
     bermain - main saat guru menjelaskan. dan karena kesulitan interaktif antar guru
@@ -20,8 +22,8 @@
     terkadang menjadi masalah, tapi untungnya kebanyakan siswa di kasus ini tidak terlalu
     bermasalah dengan kuotanya
     </p>
-    <a href="halKelima.php"><= Balik</a>
-    <a href="halKetujuh.php">Lanjut =></a><br> <br>
-    <a href="menu.php">Menu Halaman</a>
+    <a href="halKelima.php" class='tombol'><= Balik</a>
+    <a href="halKetujuh.php" class='tombol'>Lanjut =></a><br> <br>
+    <a href="menu.php" class='tombol'>Menu Halaman</a>
 </body>
 </html>

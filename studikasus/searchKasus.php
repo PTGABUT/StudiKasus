@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>StudiKasusKesulitanBelajarOnline - Search Kasus</title>
+    <link rel="stylesheet" href="tombol.css">
+    <link rel="stylesheet" href="style.css">
     <?php
     session_start();
 ?>
@@ -11,36 +13,36 @@
 <head>
     <title>StudiKasusKesulitanBelajarOnline - Search Kasus</title>
 </head>
-<body>
+<body style="background-color: #00D7FF">
     <h1>Search Siswa</h1>
     <form action="nemuKasus.php" method="post">
         <table>
             <tr>
-                <td>ID Kasus Siswa:</td>
-                <td>:</td>
-                <td><input type="number" name="id_kasus"></td>
-            </tr>
+                <td bgcolor=#2C97DF class="searchSisKas">ID Kasus Siswa:</td>
+                <td bgcolor=#2C97DF>:</td>
+                <td bgcolor=#2C97DF><input type="number" name="id_kasus"></td>
+            </tr>    
+        </table>
             <tr>
                 <td></td>
                 <td></td>
                 <td>(1)Susah Fokus Mendengarkan Penjelasan Guru</td>
-            </tr>
+            </tr><br>
             <tr>
                 <td></td>
                 <td></td>
                 <td>(2)Mengikuti Informasi Tugas</td>
-            </tr>
+            </tr><br>
             <tr>
                 <td></td>
                 <td></td>
                 <td>(3)Masalah Jaringan dan Kuota</td>
-            </tr>  
+            </tr>  <br>
             <tr>
                 <td></td>
                 <td></td>
                 <td>(4)Masalah Jaringan dan Kuota</td>
-            </tr>      
-        </table>
+            </tr><br><br>
         <input type="submit" name="simpan" value="SEARCH">
     </form>
 

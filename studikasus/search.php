@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>StudiKasusKesulitanBelajarOnline - Search</title>
+    <link rel="stylesheet" href="tombol.css">
 </head>
-<body>
+<body style="background-color: #00D7FF">
     <h1>Search Berdasarkan Nama atau Kasusnya?</h1>
-    <a href="searchNama.php">SEARCH NAMA</a>
-    <br>
-    <a href="searchKasus.php">SEARCH KASUS</a>
+    <a href="searchNama.php" class='tombol'>SEARCH NAMA</a>
+    <br><br>
+    <a href="searchKasus.php"class='tombol'>SEARCH KASUS</a>
 </body>
 </html>
